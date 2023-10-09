@@ -1,3 +1,4 @@
+/* mobile-first responsive webb design*/
 body{
   background-color: #C8B6A6;
 }
@@ -38,4 +39,62 @@ input[type="submit"] {
   border-style: hidden;
   color: #8D7B68;
   font-family: monospace;
+}
+/* Two Media Queries*/
+/*ipad*/
+@media (min-width: 768px){
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 8em;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  input[type="text"] {
+    font-size: 20px;
+  }
+  input[type="email"] {
+    font-size: 20px;
+  }
+  input[type="submit"] {
+    font-size: 20px;
+  }
+}
+
+/*Laptop*/
+@media (min-width: 992px){
+  h1{
+    font-size: 60px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+  form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 10em;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  input[type="text"] {
+    font-size: 20px;
+  }
+  input[type="email"] {
+    font-size: 20px;
+  }
+  input[type="submit"] {
+    font-size: 20px;
+  }
 }
