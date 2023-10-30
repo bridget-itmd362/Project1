@@ -28,7 +28,8 @@ input[type="email"] {
   text-align: center;
   border-style: hidden;
   display: block;
-  width: 20em;
+  width: 90%;
+  font-size: 20px;
 }
 input[type="text"] {
   background-color: #f2e9df;
@@ -36,7 +37,8 @@ input[type="text"] {
   text-align: center;
   border-style: hidden;
   display: block;
-  width: 20em;
+  width: 90%;
+  font-size: 20px;
 }
 input[type="submit"] {
   margin-top: 10px;
@@ -47,6 +49,8 @@ input[type="submit"] {
   color: #5C4033;
   font-family: monospace;
   display: block;
+  width: 90%;
+  font-size: 20px;
 }
 
 /* Two Media Queries*/
@@ -70,12 +74,15 @@ input[type="submit"] {
   }
   input[type="text"] {
     font-size: 20px;
+    width: 20em;
   }
   input[type="email"] {
     font-size: 20px;
+    width: 20em;
   }
   input[type="submit"] {
     font-size: 20px;
+    width: 20em;
   }
 }
 
@@ -99,11 +106,14 @@ input[type="submit"] {
   }
   input[type="text"] {
     font-size: 20px;
+    width: 20em;
   }
   input[type="email"] {
     font-size: 20px;
+    width: 20em;
   }
   input[type="submit"] {
     font-size: 20px;
+    width: 20em;
   }
 }
