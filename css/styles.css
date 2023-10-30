@@ -16,20 +16,27 @@ form{
   background-color: #8D7B68;
   color: #F1DEC9;
   border-radius: 25px;
-  text-align: center;
   font-family: monospace;
+  display: block;
+  padding-left: 200px;
+  padding-left: 200px;
 }
+
 input[type="email"] {
   background-color: #f2e9df;
   border-radius: 25px;
   text-align: center;
   border-style: hidden;
+  display: block;
+  width: 20em;
 }
 input[type="text"] {
   background-color: #f2e9df;
   border-radius: 25px;
   text-align: center;
   border-style: hidden;
+  display: block;
+  width: 20em;
 }
 input[type="submit"] {
   margin-top: 10px;
@@ -39,7 +46,9 @@ input[type="submit"] {
   border-style: hidden;
   color: #8D7B68;
   font-family: monospace;
+  display: block;
 }
+
 /* Two Media Queries*/
 /*ipad*/
 @media (min-width: 768px){
