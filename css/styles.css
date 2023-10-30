@@ -41,10 +41,10 @@ input[type="text"] {
 input[type="submit"] {
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #f2e9df;
+  background-color: #83a3b2;
   border-radius: 25px;
   border-style: hidden;
-  color: #8D7B68;
+  color: #5C4033;
   font-family: monospace;
   display: block;
 }
