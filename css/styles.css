@@ -112,11 +112,12 @@ input[type="submit"]:hover{
   form{
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
+    width: 20em;
     height: 10em;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 20px;
-    padding-left: 200px;
+    padding-bottom: 10px;
+    padding-left: 150px;
   }
   input[type="text"] {
     font-size: 20px;
