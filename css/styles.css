@@ -82,17 +82,19 @@ input[type="submit"]:hover{
     height: 8em;
     padding-top: 30px;
     font-size: 20px;
+    padding-right: 150px;
+    padding-bottom: 70px;
   }
   input[type="text"] {
-    font-size: 20px;
+    font-size: 25px;
     width: 20em;
   }
   input[type="email"] {
-    font-size: 20px;
+    font-size: 25px;
     width: 20em;
   }
   input[type="submit"] {
-    font-size: 20px;
+    font-size: 25px;
     width: 20em;
   }
 }
