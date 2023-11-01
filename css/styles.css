@@ -6,9 +6,11 @@ h1{
   color: #8D7B68;
   font-size: 25px;
   font-family: monospace;
+  text-align: center;
 }
 p{
-  font-size: 10pt;
+  text-align: center;
+  font-size: 15px;
   color: #83a3b2;
   font-weight: 600;
   padding-bottom: 20px;
@@ -20,10 +22,13 @@ form{
   border-radius: 25px;
   font-family: monospace;
   display: block;
-  padding-left: 200px;
-  padding-left: 200px;
+  padding-left: 60px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
-
+label{
+  font-size: 20px;
+}
 input[type="email"] {
   background-color: #f2e9df;
   border-radius: 25px;
@@ -53,6 +58,10 @@ input[type="submit"] {
   display: block;
   width: 90%;
   font-size: 20px;
+}
+input[type="submit"]:hover{
+  background-color:rgb(121, 74, 74);
+  color: white;
 }
 
 /* Two Media Queries*/
@@ -105,6 +114,7 @@ input[type="submit"] {
     height: 10em;
     padding-top: 50px;
     font-size: 20px;
+    padding-left: 200px;
   }
   input[type="text"] {
     font-size: 20px;
