@@ -29,6 +29,11 @@ form{
 label{
   font-size: 20px;
 }
+::placeholder{
+  color: #bba995;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
 input[type="email"] {
   background-color: #f2e9df;
   border-radius: 25px;
